@@ -11,7 +11,7 @@ description: Run CAST Highlight scans on your code to get Software Intelligence 
 on:
   
   workflow_dispatch:
-    branches: [ main ]
+    branches: [ master ]
 
   schedule:
     - cron: 0 6 1,15 * *
